@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
   _fetchData() async {
     print("attempting");
     final url =
-        "https://www.googleapis.com/blogger/v3/blogs/YOUR BLOGGER ID/posts/?key=YOUR API KEY";
+        "https://www.googleapis.com/blogger/v3/blogs/2724838658454263641/posts/?key=AIzaSyBbYWuURaAku9M7T6M2tLruJqmGJeQzmyo";
     final response = await http.get(url);
     print(response);
     if (response.statusCode == 200) { 
